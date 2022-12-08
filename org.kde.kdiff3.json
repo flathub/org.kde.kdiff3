@@ -19,13 +19,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.9.4.tar.xz",
-                    "sha256": "a130712ceef074df691426909fc4a332b66f4c3f1490a548ab5bfb46316c385a",
+                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.9.6.tar.xz",
+                    "sha256": "ac922476f850613a739284e3faf477c98ac349ad15a737a2b72ded8451f6b2bc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1503,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kdiff3/kdiff3-1.9.4.tar.xz"
+                        "url-template": "https://download.kde.org/stable/kdiff3/kdiff3-1.9.6.tar.xz"
                     }
                 },
                 {
