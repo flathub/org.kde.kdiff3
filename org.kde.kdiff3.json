@@ -25,7 +25,7 @@
                         "type": "anitya",
                         "project-id": 1503,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kdiff3/kdiff3-1.9.6.tar.xz"
+                        "url-template": "https://download.kde.org/stable/kdiff3/kdiff3-$version.tar.xz"
                     }
                 },
                 {
