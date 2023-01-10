@@ -10,7 +10,6 @@
         "--socket=fallback-x11",
         "--socket=wayland"
     ],
-
     "modules": [
         "boost.json",
         {
@@ -19,18 +18,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.9.6.tar.xz",
-                    "sha256": "ac922476f850613a739284e3faf477c98ac349ad15a737a2b72ded8451f6b2bc",
+                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.10.0.tar.xz",
+                    "sha256": "acddb30b8a067e17477105bcdf67d75ff8bdd1b1f0ebd840063b841067252eae",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1503,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kdiff3/kdiff3-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
                 }
             ]
         }
