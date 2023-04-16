@@ -18,8 +18,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.10.0.tar.xz",
-                    "sha256": "acddb30b8a067e17477105bcdf67d75ff8bdd1b1f0ebd840063b841067252eae",
+                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.10.1.tar.xz",
+                    "sha256": "205434930f67536c20519162af7ddf435846e2a1a125d7a0986f4ce27f9b33c8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1503,
