@@ -4,6 +4,7 @@
     "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "command": "kdiff3",
+    "rename-icon": "kdiff3",
     "finish-args": [
         "--device=dri",
         "--share=ipc",
@@ -31,6 +32,9 @@
                     "type": "patch",
                     "path": "cmake.patch"
                 }
+            ],
+            "post-install" : [
+                "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
             ]
         }
     ]
