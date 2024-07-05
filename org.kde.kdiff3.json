@@ -19,8 +19,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.11.1.tar.xz",
-                    "sha256": "30f14a5ab6e0d55116829178d827654c30e8421c04fe9700d3ce67a530846298",
+                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.11.2.tar.xz",
+                    "sha256": "91853775c3faa9522468ec123cd6de74662acb6d5116475996aca4dc2c3befc8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1503,
@@ -33,7 +33,7 @@
                     "path": "cmake.patch"
                 }
             ],
-            "post-install" : [
+            "post-install": [
                 "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
             ]
         }
