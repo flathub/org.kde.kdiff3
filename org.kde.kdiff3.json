@@ -36,7 +36,7 @@
                     "path": "cmake.patch"
                 }
             ],
-            "post-install" : [
+            "post-install": [
                 "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
             ]
         }
