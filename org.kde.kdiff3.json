@@ -22,18 +22,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.12.0.tar.xz",
-                    "sha256": "f93a065df8b2d70f22eb473c2dbfaad975c70341f37a918eb6ebb452771bacd6",
+                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.12.1.tar.xz",
+                    "sha256": "17234ed446d41d2c59026b7937915dbe368e56f5999ae435dab756966166334b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1503,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kdiff3/kdiff3-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "cmake.patch"
                 }
             ],
             "post-install": [
