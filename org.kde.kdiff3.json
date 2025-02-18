@@ -30,10 +30,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kdiff3/kdiff3-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "cmake.patch"
                 }
             ],
             "post-install": [
