@@ -45,6 +45,9 @@
             "config-opts": [
                 "-DBUILD_WITH_QT6=ON"
             ],
+            "post-install": [
+                "desktop-file-edit --set-icon=${FLATPAK_ID} ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -57,9 +60,6 @@
                         "url-template": "https://download.kde.org/stable/kdiff3/kdiff3-$version.tar.xz"
                     }
                 }
-            ],
-            "post-install": [
-                "desktop-file-edit --set-key=\"Icon\" --set-value=\"${FLATPAK_ID}\" \"${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop\""
             ]
         }
     ]
