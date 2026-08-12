@@ -28,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.91.0/source/boost_1_91_0.tar.bz2",
-                    "sha256": "de5e6b0e4913395c6bdfa90537febd9028ea4c0735d2cdb0cd9b45d5f51264f5",
+                    "url": "https://archives.boost.io/release/1.92.0/source/boost_1_92_0.tar.bz2",
+                    "sha256": "5c1d40cb8e19adbf740a4ec2da35b3e58f3f5804b1dce44deb53df72193cbc6c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.12.4.tar.xz",
-                    "sha256": "4690a35aa933b192751dd590a6b4f53fef3aa950246371112ad6e872f6b26ecb",
+                    "url": "https://download.kde.org/stable/kdiff3/kdiff3-1.12.6.tar.xz",
+                    "sha256": "edeaa2313cb74b650958d24cd98b300b73173ac8a9c87067de62babf02baa37c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1503,
